@@ -54,7 +54,7 @@ const lines = [
   "item2.X-ABLabel:Digital Business Card",
   "item3.ADR;TYPE=WORK,pref:;;" + [
     esc("B&T Nehaleeya Tower, Level-7, Holding No. 80B, Kemal Ataturk Avenue, P.S. Banani"),
-    esc("Dhaka"), "", esc("1212"), esc("Bangladesh")
+    esc("Dhaka"), "", esc("1213"), esc("Bangladesh")
   ].join(";"),
   "item3.X-ABLabel:Bangladesh Office (Dhaka)",
   "item4.ADR;TYPE=WORK:;;" + [
