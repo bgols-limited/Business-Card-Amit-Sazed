@@ -10,8 +10,16 @@ item1.URL:https://www.bgols.com/
 item1.X-ABLabel:Company Website
 item2.URL:https://alshams8.github.io/Business-Card-Amit-Sazed/
 item2.X-ABLabel:Digital Business Card
-ADR;TYPE=WORK:;;B&T NEHALEEYA TOWER\, Level-7\, Holding No. 80B\, Kemal Ata
- turk Avenue;Banani;Dhaka;1212;Bangladesh
+item3.ADR;TYPE=WORK,pref:;;B&T Nehaleeya Tower\, Level-7\, Holding No. 80B\
+ , Kemal Ataturk Avenue\, P.S. Banani;Dhaka;;1212;Bangladesh
+item3.X-ABLabel:Bangladesh Office (Dhaka)
+item4.ADR;TYPE=WORK:;;SHR Tower\, 2nd Floor\, 320\, Sheikh Mujib Road\, Agr
+ abad C/A;Chattogram;;4100;Bangladesh
+item4.X-ABLabel:Chattogram Office
+item5.ADR;TYPE=WORK:;;BG-EXPRESS (CAMBODIA) CO. LTD.\, Time Square-3\, Floo
+ r-12F\, Village-7\, Street 335-317\, Sangkat Boeng Kak\, Ti Muy\, Khan Tou
+ l Kork;Phnom Penh;;;Cambodia
+item5.X-ABLabel:Cambodia Office (Phnom Penh)
 NOTE:Head of Air Freight\, B-GOLS Limited. Committed to Deliver. WhatsApp a
  nd WeChat on +8801886813699. Professional memberships: FMC | WCA | JC Tran
  s | GLA | IFC | BAFFA.

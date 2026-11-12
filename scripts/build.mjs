@@ -52,10 +52,21 @@ const lines = [
   "item1.X-ABLabel:Company Website",
   "item2.URL:" + url,
   "item2.X-ABLabel:Digital Business Card",
-  "ADR;TYPE=WORK:;;" + [
-    esc("B&T NEHALEEYA TOWER, Level-7, Holding No. 80B, Kemal Ataturk Avenue"),
-    esc("Banani"), esc("Dhaka"), esc("1212"), esc("Bangladesh")
+  "item3.ADR;TYPE=WORK,pref:;;" + [
+    esc("B&T Nehaleeya Tower, Level-7, Holding No. 80B, Kemal Ataturk Avenue, P.S. Banani"),
+    esc("Dhaka"), "", esc("1212"), esc("Bangladesh")
   ].join(";"),
+  "item3.X-ABLabel:Bangladesh Office (Dhaka)",
+  "item4.ADR;TYPE=WORK:;;" + [
+    esc("SHR Tower, 2nd Floor, 320, Sheikh Mujib Road, Agrabad C/A"),
+    esc("Chattogram"), "", esc("4100"), esc("Bangladesh")
+  ].join(";"),
+  "item4.X-ABLabel:Chattogram Office",
+  "item5.ADR;TYPE=WORK:;;" + [
+    esc("BG-EXPRESS (CAMBODIA) CO. LTD., Time Square-3, Floor-12F, Village-7, Street 335-317, Sangkat Boeng Kak, Ti Muy, Khan Toul Kork"),
+    esc("Phnom Penh"), "", "", esc("Cambodia")
+  ].join(";"),
+  "item5.X-ABLabel:Cambodia Office (Phnom Penh)",
   "NOTE:" + esc("Head of Air Freight, B-GOLS Limited. Committed to Deliver. WhatsApp and WeChat on +8801886813699. Professional memberships: FMC | WCA | JC Trans | GLA | IFC | BAFFA."),
   "PHOTO;ENCODING=b;TYPE=JPEG:" + photo,
   "END:VCARD"
