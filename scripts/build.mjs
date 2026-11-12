@@ -48,6 +48,7 @@ const lines = [
   "TITLE:Head of Air Freight",
   "TEL;TYPE=CELL,VOICE,pref:+8801886813699",
   "TEL;TYPE=CELL,VOICE:+8801335134477",
+  "EMAIL;TYPE=INTERNET,WORK,pref:amits@bgols.com",
   "item1.URL:https://www.bgols.com/",
   "item1.X-ABLabel:Company Website",
   "item2.URL:" + url,
